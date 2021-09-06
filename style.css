@@ -4,9 +4,37 @@
 
 #main {
     display: grid;
-    justify-content: center;
+    justify-items: center;
+    width: 100%;
 }
 
 #title {
     text-align: center;
+}
+
+#image {
+    border-radius: 5px;
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+}
+
+#tribute-info {
+    max-width: 900px;
+    width: 60%;
+    /* display: grid;
+    justify-content: center;
+     */
+}
+
+@media (max-width:500px){
+    #tribute-info {
+        width: 85%;
+    }
+}
+
+
+#tribute-info p {
+    
+    text-align: justify;
 }
