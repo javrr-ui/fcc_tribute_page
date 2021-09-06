@@ -6,3 +6,7 @@
     display: grid;
     justify-content: center;
 }
+
+#title {
+    text-align: center;
+}
